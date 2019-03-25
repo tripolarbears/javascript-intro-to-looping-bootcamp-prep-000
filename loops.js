@@ -16,19 +16,14 @@ function whileLoop(n) {
 }
 
 function doWhileLoop(num) {
-  do { num = num + 1
-  function incrementVariable() {
-  num = num + 1;
+var i = 0;
+ 
+function incrementVariable() {
+  i = i + 1;
   return num;
 }
+ 
 do {
-  console.log("I run once regardless.");
-} while ( incrementVariable() < num);
+  console.log("doo-bee-doo-bee-doo");
+} while (incrementVariable() < 5);
 }
-
-do {
-  i = i + 1;
-  result = result + i;
-} while (i < 5);
-
-console.log(result);
