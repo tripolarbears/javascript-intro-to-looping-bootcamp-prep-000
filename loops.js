@@ -15,10 +15,10 @@ function whileLoop(n) {
   return "done"
 }
 
-function doWhileLoop(n) {
+function doWhileLoop(nun) {
   function incrementVariable() {
-  n = n + 1;
-  return n;
+  nun = num + 1;
+  return num;
 }
 console.log ("I run once regardless.")
 }
