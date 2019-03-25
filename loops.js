@@ -20,4 +20,5 @@ function doWhileLoop(n) {
   n = n + 1;
   return n;
 }
+console.log ("I run once regardless.")
 }
